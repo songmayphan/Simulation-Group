@@ -27,7 +27,7 @@ def Play():
     spin = randint(0,37)
     result = -1
     if spin == 0 or spin == 37:
-        return 1
+        return 0
     elif spin % 2 == 0:
         return 1
         
