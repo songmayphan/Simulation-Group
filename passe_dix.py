@@ -26,8 +26,7 @@ def main():
     total = (total/i)*100
     print(str(total) + ' %') 
 
-if __name__ == '__main__':
-    main()
+main()
 
 
 
